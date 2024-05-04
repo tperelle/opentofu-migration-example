@@ -24,5 +24,6 @@ resource "aws_vpc" "vpc" {
   tags = {
     Name = "tf-vpc"
     IaC  = "terraform"
+    # Iac = "opentofu"
   }
 }
