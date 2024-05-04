@@ -154,7 +154,9 @@ We can check the content of the tfstate file:
 }
 ```
 
-Now we gonna make a simple change on our VPC to verify that OpenTofu is working:
+Remark the providers list which has been updated to rely on the OpenTofu registry.
+
+Let's make a simple change on our VPC to verify that OpenTofu is working:
 
 ```bash
 # Create a VPC
